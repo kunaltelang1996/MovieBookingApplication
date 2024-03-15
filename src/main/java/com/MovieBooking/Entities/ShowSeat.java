@@ -14,7 +14,7 @@ import lombok.Setter;
 public class ShowSeat extends BaseModel{
     private int price;
     @ManyToOne
-    private Show show;
+    private MovieShow movieShow;
     @ManyToOne
     private Seat seat;
     @Enumerated(EnumType.STRING)

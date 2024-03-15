@@ -12,7 +12,7 @@ import java.util.List;
 @Getter
 @Setter
 @Entity
-public class Show extends BaseModel{
+public class MovieShow extends BaseModel{
     private LocalDateTime startTime;
     private LocalDateTime endTime;
     @ManyToOne
